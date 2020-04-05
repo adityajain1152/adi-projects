@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#head{
+    position: absolute;
+    top: 12%;
+    left:25.5%;
+    width:39%;
+    height:27%;
+}
+
+
+#bird{
+     position: absolute;
+     top:9%;
+     left: 62.2%;
+     width: 21%;
+     height: 30%;
+    
+  }
+
+.bg{
+     background-image: url("./backhover.svg");
+     background-size: cover;
+     padding : 24.73% ;
+     position: relative;
+  }
+
+  .event{
+      background-image: url("./back1.jpg") ;
+      background-size: cover;
+      height:100%;
+     
+  }
+  #events{
+      text-align: center;
+      text-shadow: 4px 2px 3px rgb(223, 85, 51);
+      font-size: 6em;
+      color:rgb(18, 223, 121);
+      padding-bottom: 20px;
+      font-family:cursive;
+      text-decoration: underline;
+  }
+
+  #event1{
+      width: 500px;
+      height: 400px ;
+      padding-left: 1em;
+  }
+
+  h2{
+      float: right;
+      margin-right: 30px;
+      font-size: 3em;
+      color: rgb(28, 218, 192);
+      font-family: cursive;
+      }
+
+  #desc1{
+    float: right;
+    font-size: 0.5em;
+    color: rgb(77, 13, 228);
+    font-family: cursive;
+    word-spacing: 0.1em;
+  }    
+   
+  #event2{
+    width: 500px;
+    height: 465px ;
+    padding-left:60px;
+    
+   }
+
+ h3{
+    float: left;
+    margin-right: 30px;
+    font-size: 3em;
+    color: rgb(28, 218, 192);
+    font-family: cursive;
+    }
+   
+    #desc2{
+        float: left;
+        font-size: 0.5em;
+        color: rgb(77, 13, 228);
+        font-family: cursive;
+        word-spacing: 0.1em;
+        
+      }   
+    #video{
+        float:right;
+        margin-right: 125px;
+        font-size: 3.8em;
+        text-decoration: burlywood;
+        color: purple;
+    }
+    
+   
+    #gallery{
+        text-align: center;
+        text-shadow: 4px 2px 3px rgb(223, 85, 51);
+        font-size: 6em;
+        color:rgb(18, 223, 121);
+        padding-bottom: 20px;
+        font-family:cursive;
+        text-decoration: underline;
+    }
+
+    #pic1{
+        width: 600px;
+        height: 400px;
+        transform: translate(40px);
+        transition: all 5s 2s;
+    }
+
+    #pic2{
+        width: 600px;
+        height: 400px;
+        margin-left:280px;
+        padding-left: 30px;
+        transform: translate(-40px);
+        transition: all 5s 2s;
+    }
+
+   #pic3{
+       padding-top: 70px;
+       padding-left: 480px;
+       padding-bottom: 10px;
+       width: 400px;
+       height: 350px;
+       transform: scale(1.5);
+       transition: all 5s 2s;
+   }
+
+   #pic4{
+  
+   
+    padding: 90px 0px;
+    animation: pic4 7s 1;
+    animation-fill-mode: forwards;
+    
+}
+
+#pic5{
+    width: 600px;
+    height: 400px;
+    padding-left:40px;
+    
+    animation: pic5 5s infinite;
+    
+    
+}
+
+#pic6{
+    width: 600px;
+    height: 400px;
+    margin-left:260px;
+   animation: pic6 5s infinite;
+}
+
+@keyframes pic4{
+    0%{
+        width:400px;
+        height:350px;
+    }
+    
+   
+    25%{
+        transform: translate(127px);
+        width:400px;
+        height:350px;
+    }
+    50%{
+        width:464px;
+        height:406px;
+        transform: translate(254px);
+    }
+    75%{
+        width:528px;
+        height:462px;
+        transform: translate(384px);
+    }
+    100%{
+        width:600px;
+        height:525px;
+        transform: translate(501px);
+    }
+}
+
+@keyframes pic5{
+    0%{width: 0px;
+        height: 0px;}
+    25%{width: 150px;
+        height: 100px;}
+    50%{width: 300px;
+        height: 200px;}
+    75%{width: 450px;
+        height: 300px;}
+    100%{width: 600px;
+        height: 400px;}
+}
+
+@keyframes pic6{
+    0%{width: 0px;
+        height: 0px;}
+    25%{width: 150px;
+        height: 100px;}
+    50%{width: 300px;
+        height: 200px;}
+    75%{width: 450px;
+        height: 300px;}
+    100%{width: 600px;
+        height: 400px;}
+}
+
+#queries{
+    display:block;
+    text-align: center;
+    background-color:rgb(10, 107, 218);
+    font-size: 5em;
+    margin: 0px 70px;
+    font-family: cursive;
+    color: rgb(173, 135, 31);
+    text-decoration: underline;
+}
+.query{
+    margin:70px;
+    margin-top: 0px;
+    padding:30px 200px;
+    padding-left:10px;
+    background: rgb(10, 107, 218);
+}
